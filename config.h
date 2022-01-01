@@ -65,14 +65,14 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-        { netspeed_rx, " [ %s%% ",   "wlan0"	},
-        { netspeed_tx, " %s%%] ",   "wlan0"	},
-        /*{ wifi_perc, "W: %s%% | ",   "wlan0"	},*/
-	{ cpu_perc, "[CPU:%s%% ",   NULL	},
-	{ ram_used, "RAM:%s] ",   NULL	},
-	{ run_command,   "[VOL:%2s%% ", "pamixer --get-volume"	},
-	{ battery_perc,  "BAT:%s%%] ", "BAT0"	},
-	/*{ disk_free,"[hdd %sB]  | ",      "/" },*/
-	/*{ datetime, "%s","%a %b %d %R"	}*/
+      /*{ netspeed_rx, " [ %s%% ",   "wlan0"	},*/
+      /*{ netspeed_tx, " %s%%] ",   "wlan0"	},*/
+      /*{ wifi_perc, "W: %s%% | ",   "wlan0"	},*/
+	{ cpu_perc, "CPU:%s%% ",   NULL	},
+	{ ram_used, "RAM:%s | ",   NULL	},
+	{ run_command,   "VOL:%2s%% ", "pamixer --get-volume"	},
+	{ battery_perc,  "BAT:%s%% | ", "BAT0"	},
+      /*{ disk_free,"[hdd %sB]  | ",      "/" },*/
+      /*{ datetime, "%s","%a %b %d %R"	}*/
         { datetime, "[%s","%F %T]"	}
 };
