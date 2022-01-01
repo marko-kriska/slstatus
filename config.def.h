@@ -68,7 +68,7 @@ static const struct arg args[] = {
       /*{ netspeed_rx, " [ %s%% ",   "wlan0"	},*/
       /*{ netspeed_tx, " %s%%] ",   "wlan0"	},*/
       /*{ wifi_perc, "W: %s%% | ",   "wlan0"	},*/
-	{ cpu_perc, "CPU:%s%% ",   NULL	},
+	{ cpu_perc, " CPU:%s%% ",   NULL	},
 	{ ram_used, "RAM:%s | ",   NULL	},
 	{ run_command,   "VOL:%2s%% ", "pamixer --get-volume"	},
 	{ battery_perc,  "BAT:%s%% | ", "BAT0"	},
