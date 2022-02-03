@@ -71,9 +71,9 @@ static const struct arg args[] = {
       /*{ cpu_perc, "CPU:%s%% ",   NULL	},*/
       /*{ kernel_release, " %s", NULL },*/
         { uptime, " [%s ",   NULL	},
-	{ ram_used, "%s ] ",   NULL	},
+	{ ram_used, "%s] ",   NULL	},
       /*{ run_command,   "V:%2s%% ", "pamixer --get-volume"	},*/
-	{ battery_perc,  "[B:%s%% ] ", "BAT0"	},
+	{ battery_perc,  "[B:%s%%] ", "BAT0"	},
       /*{ disk_free,"[hdd %sB] ",      "/" },*/
         { datetime, "[%s","%a %b %d %R]"	}
       /*{ datetime, "%s","%F %T"	}*/
