@@ -70,9 +70,9 @@ static const struct arg args[] = {
       /*{ wifi_perc, "W:%s% ",   "wlan0"	},*/
       /*{ cpu_perc, "CPU:%s% ",   NULL	},*/
       /*{ kernel_release, " %s", NULL },*/
-        { uptime, "%s | ",   NULL	},
+        { uptime, " %s | ",   NULL	},
 	{ ram_used, "%s | ",   NULL	},
-        { run_command,   "%s ", "checkupdates | wc -l"	},
+        { run_command,   "%s | ", "checkupdates | wc -l"	},
         { run_command,   "VOL:%s% | ", "pamixer --get-volume"	},
 	{ battery_perc,  "BAT:%s% | ", "BAT0"	},
       /*{ disk_free,"hdd %sB ",      "/" },*/
