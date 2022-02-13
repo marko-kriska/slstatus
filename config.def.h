@@ -74,7 +74,7 @@ static const struct arg args[] = {
       /*{ ram_used, "%s ",   NULL	},*/
       /*{ run_command,   "%s ", "checkupdates | wc -l"	},*/
       /*{ run_command,   "VOL:%s%% ", "pamixer --get-volume"	},*/
-	{ battery_perc,  "BAT:%s%% ", "BAT0"	},
+      /*{ battery_perc,  "BAT:%s%% ", "BAT0"	},*/
       /*{ disk_free,"hdd %sB ",      "/" },*/
       /*{ datetime, "%s","%a %b %d %R"	},*/
 	{ datetime, "%s","%F %T"	},
