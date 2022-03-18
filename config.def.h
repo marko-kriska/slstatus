@@ -77,5 +77,5 @@ static const struct arg args[] = {
       /*{ battery_perc,  "BAT:%s%%", "BAT0"	},*/
       /*{ disk_free,"hdd %sB",      "/" },*/
       /*{ datetime, "%s","%a %b %d %R"	},*/
-	{ datetime, "%s","%F %T"	},
+	{ datetime, " %s","%F %T"	},
 };
